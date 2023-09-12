@@ -1,5 +1,4 @@
 FROM python:3.10
-
 RUN apt update && apt upgrade -y
 RUN apt install git -y
 COPY requirements.txt /requirements.txt
